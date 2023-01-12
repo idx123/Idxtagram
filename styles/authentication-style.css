@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{ font-size: 10px }
+body{ background-color: #FAFAFA }
+/* #FAFAFA */
+/* 버튼, 가입하기 텍스트: #4DB5F9 */
+/* 버튼 ACTIVE: #1877F2 */
+
+
+.auth-frame{
+    width: 34rem;
+    margin: 1.2rem auto;
+    display: grid;
+    row-gap: 1rem;
+}
+
+.logo{ 
+    font-size: 3.5rem; 
+    text-align: center; 
+    color: #232323; 
+    margin: 1.8rem 0 3.8rem 0; 
+}
+
+.auth{
+    border: 1px solid #D3D3D3;
+    background-color: #FFFFFF;
+    padding: 2rem 4rem;
+}
+
+.input-area{ position: relative }
+
+.input-area input{
+    width: 100%;
+    background-color: #FAFAFA;
+    border: 1px solid #D3D3D3;
+    border-radius: 0.3rem;
+    outline: none;
+    margin-bottom: 0.6rem;
+    padding: 1rem;
+}
+
+.input-area label{
+    font-size: 1.3rem;
+    position: absolute;
+    left: 1rem;
+    top: 0.9rem;
+    color: #999;
+    transition: all 0.2s;
+}
+.input-area input:focus{ 
+    border-color: #777;
+}
+.input-area input:valid{ 
+    padding-top: 1.6rem;
+    padding-bottom: 0.4rem;
+}
+.input-area input:valid + label{
+    font-size: 1rem;
+    top: 0.3rem;
+}
+
+.check-area{
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    font-size: 1.2rem;
+}
+
+.check-area input[type="checkbox"]{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #4DB5F9;
+    background-color: transparent;
+}
+
+.check-area label{
+    margin-left: 0.5rem;
+}
+
+.button-area{
+    width: 100%;
+    text-align: center;
+}
+
+.login-button{
+    width: 100%;
+    height: 3.2rem;
+    border: 0;
+    border-radius: 0.8rem;
+    background-color: #4DB5F9;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-top: 0.8rem;
+}
+
+.login-btn-changed{
+    background-color: #2A8EFF;
+    transition: all 0.2s;
+}
+
+.login-btn-changed:hover{
+    background-color: #1877F2;
+}
+
+.hr-add{
+    display: flex; 
+    flex-basis: 100%; 
+    align-items: center; 
+    color: #777;
+    font-weight: 700; 
+    font-size: 1.2rem; 
+    margin: 1.8rem 0;
+}
+
+.hr-add span{
+    margin: 0 1.5rem;
+}
+
+.hr-add::before, .hr-add::after {
+    content: ""; 
+    flex-grow: 1; 
+    background: #D3D3D3;
+    height: 0.1rem; 
+    font-size: 0; 
+    line-height: 0; 
+}
+
+.facebook-button{
+    border: 0;
+    background-color: transparent;
+    margin-bottom: 2rem;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: #385185;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.auth-top > p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.auth-bottom p{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.auth-bottom p span{
+    font-weight: 700;
+    color: #4DB5F9;
+    cursor: pointer;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 12rem;
+    font-size: 1.2rem;
+    color: #777;
+}
+
+footer ul{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem 2rem;
+    justify-content: center;
+}
+
+footer ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+

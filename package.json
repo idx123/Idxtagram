@@ -1,0 +1,19 @@
+{
+  "name": "idxtagram",
+  "version": "1.0.0",
+  "description": "인스타그램 클론코딩 Idxtagram",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idx123/Idxtagram.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idx123/Idxtagram/issues"
+  },
+  "homepage": "https://github.com/idx123/Idxtagram#readme"
+}

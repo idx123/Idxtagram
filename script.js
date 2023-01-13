@@ -3,7 +3,7 @@ const emailField = document.querySelector('#email');
 const pwField = document.querySelector('#password');
 
 const toggle =(e)=>{
-    e.preventDefault();
+    // e.preventDefault();
     if(emailField.value && pwField.value){
         validButton.disabled = false;
         validButton.classList.add('login-btn-changed');

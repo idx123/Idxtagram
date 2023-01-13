@@ -4,16 +4,12 @@
     box-sizing: border-box;
 }
 
-html{ font-size: 10px }
+html{ font-size: 62.5% }
 body{ background-color: #FAFAFA }
-/* #FAFAFA */
-/* 버튼, 가입하기 텍스트: #4DB5F9 */
-/* 버튼 ACTIVE: #1877F2 */
-
 
 .auth-frame{
     width: 34rem;
-    margin: 1.2rem auto;
+    margin: 10rem auto 0 auto;
     display: grid;
     row-gap: 1rem;
 }
@@ -35,29 +31,32 @@ body{ background-color: #FAFAFA }
 
 .input-area input{
     width: 100%;
+    outline: none;
     background-color: #FAFAFA;
     border: 1px solid #D3D3D3;
     border-radius: 0.3rem;
-    outline: none;
     margin-bottom: 0.6rem;
     padding: 1rem;
 }
 
 .input-area label{
-    font-size: 1.3rem;
     position: absolute;
     left: 1rem;
     top: 0.9rem;
+    font-size: 1.3rem;
     color: #999;
     transition: all 0.2s;
 }
+
 .input-area input:focus{ 
     border-color: #777;
 }
+
 .input-area input:valid{ 
     padding-top: 1.6rem;
     padding-bottom: 0.4rem;
 }
+
 .input-area input:valid + label{
     font-size: 1rem;
     top: 0.3rem;

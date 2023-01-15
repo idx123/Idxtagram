@@ -5,7 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>idxtagram</title>
-        <link rel="stylesheet" href="authentication-style.css">
+        <link rel="stylesheet" href="global-style.css">
+        <link rel="stylesheet" href="landing.css">
     </head>
     <body>
         <div class="auth-frame">
@@ -25,12 +26,14 @@
                         <label for="save">로그인 정보 저장하기</label>
                     </div>
                     <div class="button-area">
-                        <button class="login-button" disabled>로그인</button>
+                        <button class="login-button" onclick="location.href='feed.html'" disabled>로그인</button>
                     </div>
                 </form>
                 <div class="hr-add"><span>또는</span></div>
                 <div class="button-area">
-                    <button class="facebook-button"><a href="https://www.facebook.com/login">Facebook으로 로그인</a></button>
+                    <button class="facebook-button" onclick="location.href=`https://www.facebook.com/login`">
+                        Facebook으로 로그인
+                    </button>
                 </div>
                 <p>비밀번호를 잊으셨나요?</p>
             </div>
@@ -49,10 +52,10 @@
                 <li>약관</li>
                 <li>인기 계정</li>
                 <li>위치</li>
-                <li>Idxtagram Lite</li>
+                <li>Instagram Lite</li>
                 <li>연락처 업로드 & 비사용자</li>
             </ul>
-            <p>&copy; 2023 Idxtagram from idx123</p>
+            <p>&copy; 2023 Instagram from meta</p>
         </footer>    
         <script src="script.js"></script>
     </body>
